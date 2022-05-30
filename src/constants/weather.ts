@@ -1,0 +1,19 @@
+export enum WEATHER_CONDITION {
+  SNOWY = "SNOWY",
+  COLD = "COLD",
+  SUNNY = "SUNNY",
+  MOSTLY_SUNNY = "MOSTLY_SUNNY",
+  RAINY = "RAINY",
+  CLOUDY = "CLOUDY",
+  NOT_FOUND = "NOT_FOUND"
+}
+
+export const WEATHER_SCORE = {
+  MOSTLY_SUNNY: 1,
+  SUNNY: 2,
+  CLOUDY: 3,
+  COLD: 4,
+  SNOWY: 5,
+  RAINY: 6,
+  NOT_FOUND: 7
+}
